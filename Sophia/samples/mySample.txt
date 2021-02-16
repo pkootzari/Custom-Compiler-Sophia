@@ -1,0 +1,43 @@
+class Main {
+    //a: list(int , string);
+    def Main() {
+        //a: mamad;
+        //b: func<string->temp>;
+        //a = new mamad();
+        //b = a.m;
+        //print(b("shit").a.a);
+        a: list(5 # list(5 # int));
+        i: list(5 # int);
+        j: int;
+        a = [[1,2,3,4,5], [1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5],[1,2,3,4,5]];
+        foreach(i in a) {
+            foreach(j in i) {
+                print(j);
+                break;
+            }
+        }
+        //for(i = 0; i < 5; i = i + 1) {
+        //    print("fucl");
+        //    continue;
+        //}
+    }
+}
+
+class mamad {
+    a: list(int, string);
+    //def mamad() {
+    //    a: int;
+    //}
+
+    def temp m(b: string) {
+        t : temp;
+        t = new temp();
+        t.a.a = 10;
+        return t;
+    }
+}
+
+class temp {
+    a: list(a: int , b: int);
+    b: list(int, int);
+}
